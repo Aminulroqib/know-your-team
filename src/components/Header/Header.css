@@ -1,0 +1,14 @@
+.jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i.pinimg.com/originals/12/13/35/1213358919454b1e4e0a0ec3990c64b7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 200px;
+    text-align: center;
+}
+.tittle{
+    color: white;
+}
