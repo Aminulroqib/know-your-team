@@ -18,7 +18,7 @@ const Detail = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setDetail(data.teams[0]))
-    }, [])
+    }, [idTeam])
 
     const handleClick = ()=>{
         const social = `twitter.com/${detail.strTeam}`
