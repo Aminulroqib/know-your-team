@@ -6,7 +6,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <Jumbotron>
+            <Jumbotron className='header-jumbo'>
                <h1 className='tittle'>Know Your Team</h1>
             </Jumbotron>
         </div>
