@@ -17,9 +17,11 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
+            <div className="bg-dark">
             {
                 teams.map(team => <Info team={team}></Info>)
             }
+            </div>
         </div>
     );
 };

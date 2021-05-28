@@ -16,11 +16,6 @@ function App() {
     <div>
       <Router>
         <div>
-          <ul>
-            <li>
-              <Link to='/home'>Home</Link>
-            </li>
-          </ul>
           <Switch>
             <Route exact path="/">
               <Home />
@@ -30,6 +25,9 @@ function App() {
             </Route>
             <Route path="/home">
               <Home></Home>
+            </Route>
+            <Route path="/*">
+              <NotFound/>
             </Route>
           </Switch>
         </div>

@@ -1,5 +1,5 @@
 .detail-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i.pinimg.com/originals/12/13/35/1213358919454b1e4e0a0ec3990c64b7.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://i.pinimg.com/originals/12/13/35/1213358919454b1e4e0a0ec3990c64b7.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -12,4 +12,35 @@
 .img{
     width: 150px;
     padding: 10px;
+}
+.img-team{
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    align: right;
+    float: right;
+}
+.team-card{
+    background-color: #121225;
+    padding: 50px;
+    color: white;
+}
+.text{
+    color: white;
+    margin-top: 20px;
+    text-align: justify;
+}
+.card{
+    background-color: green;
+}
+.card-text{
+    padding: 20px;
+}
+.social{
+    align-items: center;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.social-img{
+    width: 50px;
 }
