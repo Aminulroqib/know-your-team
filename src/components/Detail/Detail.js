@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Jumbotron, Container, Card, Button, ModalFooter } from 'react-bootstrap';
-import { useHistory, useParams } from 'react-router';
+import { Card } from 'react-bootstrap';
+import { useParams } from 'react-router';
 import DetailHeader from '../DetailHeader/DetailHeader';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCheck, faFlag, faFutbol, faMars } from '@fortawesome/free-solid-svg-icons';
 import './Detail.css';
